@@ -20,6 +20,9 @@ The non-beneficial ID columns, 'EIN' and 'NAME', were dropped from the input dat
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+![Model_Parameters](https://user-images.githubusercontent.com/69759624/105563148-a7a67380-5ce2-11eb-9808-efcd9e170f3a.PNG)
+
 * Were you able to achieve the target model performance?
 * What steps did you take to try and increase model performance?
 
