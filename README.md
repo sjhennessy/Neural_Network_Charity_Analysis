@@ -28,11 +28,13 @@ The accuracy for the model was 72.61% and did not reach the desired accuracy of 
 
 * What steps did you take to try and increase model performance?
 Three attempts were taken to raise the accuracy to at least 75%.
-** Attempt #1: The column "ASK_AMT" was dropped because the values were noisy. The number of neurons in the first hidden layer was raised to 100 from 80.  Thirdly, a third hidden layer was added with 15 neurons. The accuracy was 72.58%.
-** Attempt #2: The activation function of the first hidden layer was changed to "tanh".  The accuracy was 72.62%.
-** Attempt #3: The number of neurons in the third layer was raised to 50 from 15. The The accuracy was 72.45%.
+#### Attempt #1: The column "ASK_AMT" was dropped because the values were noisy. The number of neurons in the first hidden layer was raised to 100 from 80.  Thirdly, a third hidden layer was added with 15 neurons. The accuracy was 72.58%.
+
+#### Attempt #2: The activation function of the first hidden layer was changed to "tanh".  The accuracy was 72.62%.
+#### Attempt #3: The number of neurons in the third layer was raised to 50 from 15. The The accuracy was 72.45%.
 
 ## Summary
 * The accuracy stayed in the 72% range for the original attempt and the subsequent three attempts.
 
-* Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+* Include a recommendation for how a different model could solve this classification problem.
+Due to an accuracy less than 75% for the neural network, the recommendation is to create a binary classifier using a Support Vector Machine (SVM). The dataset is well-suited as a straightforward binary classification and the SVM may outperform the neural network.
