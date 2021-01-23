@@ -28,9 +28,9 @@ The accuracy for the model was 72.61% and did not reach the desired accuracy of 
 
 * What steps did you take to try and increase model performance?
 Three attempts were taken to raise the accuracy to at least 75%.
-Attempt #1: The number of neurons in the first hidden layer was raised to 100 from 80. The activation function of the first hidden layer was changed to "tanh". Thirdly, a third hidden layer was added with 15 neurons. The accuracy was 72.58%.
-Attempt #2: The number of neurons in the third layer was raised to 50 from 15. The accuracy was 72.62%.
-Attempt #3: The The accuracy was 72.45%.
+** Attempt #1: The column "ASK_AMT" was dropped because the values were noisy. The number of neurons in the first hidden layer was raised to 100 from 80.  Thirdly, a third hidden layer was added with 15 neurons. The accuracy was 72.58%.
+** Attempt #2: The activation function of the first hidden layer was changed to "tanh".  The accuracy was 72.62%.
+** Attempt #3: The number of neurons in the third layer was raised to 50 from 15. The The accuracy was 72.45%.
 
 ## Summary
 * The accuracy stayed in the 72% range for the original attempt and the subsequent three attempts.
