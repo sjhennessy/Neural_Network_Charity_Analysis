@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview of the analysis
-The purpose of the analysis is to utilize machine learning and neural networks to create a binary classifier that is capable of predicting whether charity applicants will be successful if funded by Alphabet Soup.
+Utilizing machine learning models and neural networks, I created a binary classifier that is capable of predicting whether charity applicants will be successful if funded by Alphabet Soup.
 
 ## Results
 
